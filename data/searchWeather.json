@@ -1,0 +1,11 @@
+{
+    "validKeyword": [
+        {
+            "cityName": "Hanoi"
+        },
+        {
+            "cityName": "10011, US"
+        }
+    ],
+    "invalidKeyword": "Hanoi94"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "playwright-automation-fw-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allure": "allure generate ./testOutput/allure-results --clean -o ./testOutput/allure-report && allure open ./testOutput/allure-report",
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "allure-commandline": "^2.21.0",
+    "allure-playwright": "^2.0.0",
+    "winston": "^3.8.2"
+  }
+}
